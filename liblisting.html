@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>    
+      .card{
+        border: 1px solid blue;
+        padding: 10px;
+        margin: 10px;
+        height: 300px;        
+      }     
+    </style>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-custom" id="fxnav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="liblisting.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookregn.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="booksdisplay.html">View Books</a>
+          </li>                  
+        </ul>
+      </nav>
+      <br>
+      <div class="container">                    
+          <div id="outer">
+            <h1 style="color: white;">Library</h1>
+          </div>
+          <br>
+        <div class="row" id="logindetails" >
+          <div class="col">
+            <div class="card">             
+              <div class="card-body">
+                  <div class="card-title">
+                    Log In
+                  </div>
+                  <form>
+                      <div class="form-group">
+                        <label for="uname">User Name</label>
+                        <input type="input" class="form-control" id="uname" placeholder="Enter username">              
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd">Password</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Password">
+                      </div> 
+                      <div class="form-group">
+                          <button type="button" class="btn btn-primary" id="login">Login</button>
+                      </div>           
+                      
+                    </form>
+              </div>
+            </div>
+              
+          </div>
+        </div>        
+      </div>
+</body>
+</html>

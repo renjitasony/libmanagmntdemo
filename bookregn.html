@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/registration.js"></script>
+    <style>     
+      .card{
+        border: 1px solid blue;
+        margin: 10px;
+        height: 600px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-custom" id="fxnav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="liblisting.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookregn.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="booksdisplay.html">View Books</a>
+          </li>                  
+        </ul>
+      </nav>
+      <br>
+      <div class="container">
+            <br>
+          
+            <div id="outer">
+              <h1 style="color: white;">Library</h1>
+            </div>
+            <br>
+          <div class="row" id="regndetails">
+            <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-title">
+                      Register
+                    </div>
+                    <form>
+                        <div class="form-group">
+                          <label for="uname">Enter your name</label>
+                          <input type="input" class="form-control" id="uname" placeholder="Enter name"> 
+                          <label for="mob">Enter your mobile no:</label>
+                          <input type="number" class="form-control" id="mob" placeholder="Enter mobile number">              
+                          <label for="usname">Enter a user name:</label>
+                          <input type="text" class="form-control" id="usname" placeholder="User name">              
+                        </div>
+                        <div class="form-group">
+                                <label for="uemail">Email address</label>
+                                <input type="email" class="form-control" id="uemail" aria-describedby="emailHelp" placeholder="Enter email">                            
+                              </div>
+                        <div class="form-group">
+                          <label for="pwd">Enter a password</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Password">
+                          <label for="pwd">Confirm password</label>
+                          <input type="password" class="form-control" id="cpwd" placeholder="Password">
+                        </div>            
+                        <button type="button" class="btn btn-primary" id="register">Register</button>
+                      </form>
+                  </div>
+                </div>
+                
+            </div>
+          </div>
+      </div>           
+      
+</body>
+</html>

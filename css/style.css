@@ -1,0 +1,75 @@
+      #fxnav{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background-color: rgb(5, 5, 138);
+      }
+      body{
+        width: 1200px;
+        background-color: antiquewhite;
+      }
+      p{
+        margin-bottom:0px;
+      }
+      #regndetails{
+        position: relative;
+        top:175px;
+        z-index:5;
+        background-color:white;
+        left: 10rem;        
+        width: 1000px;
+      }
+      #logindetails{
+        position: relative;
+        top:175px;
+        z-index:5;
+        background-color:white;
+        left: 10rem;        
+        width: 1000px;
+      }
+      #bimg{
+        height:250px;
+        width:200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      #outer{
+        position: absolute;
+        margin-left: 0px;
+        top:50px;
+        z-index:0;
+        left:0px;
+        background-color:rgb(2, 2, 83);
+        height: 300px;
+        width: 100%;    
+        padding-block-start: 100px; 
+        padding-left: 50px;
+
+      }
+      #bookdetails{
+        position: relative;
+        top:250px;
+        z-index:5;
+        background-color:white;
+        left: 10rem;        
+        width: 1050px;
+      }
+      .btn{
+        padding: 0px,0px;;
+      }
+      .card{
+        border: 1px solid grey;
+        padding: 10px;
+        margin: 10px;
+        height: 510px;
+      }
+     
+      .card-text{
+        overflow:hidden;
+        display: -webkit-box;
+       -webkit-line-clamp:3;
+       -webkit-box-orient: vertical;  
+        
+      }

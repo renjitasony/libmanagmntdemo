@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books Collection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/booksdisplay.js"></script>
+</head>
+<body>      
+                <nav class="navbar navbar-expand-sm  navbar-dark" id="fxnav">                   
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="liblisting.html">Login <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookregn.html">Register</a>
+                          </li>                          
+                        <li class="nav-item">
+                          <a class="nav-link" href="booksdisplay.html">Books</a>
+                        </li>                          
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">                        
+                        <div class="form-group">
+                           
+                            <select class="form-control" id ="filcat" value="All" >
+                                <option value="All" selected>All Categories</option>
+                                <option value="Mythology">Mythology</option>
+                                <option value="Romance">Romance</option>
+                                <option value="Thriller">Thriller</option>
+                                <option value="Autobiography">Autobiography</option>
+                            </select>
+                          </div>                     
+                      </form>
+                    </div>
+                  </nav>                 
+
+    <div class="container">
+        
+        <br>
+        <img src="./images/ajax-loader.gif" alt="Loading" id="loader1">
+        <div id="outer">
+          <h1 style="color: white;">Library</h1>
+        </div>
+        <div class="row" id="bookdetails">
+            
+         </div>
+         
+    </div>
+</body>
+</html>
